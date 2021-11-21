@@ -1,0 +1,10 @@
+.items-card {
+  margin: auto;
+  display: flex;
+  width: 15%;
+  background-color: rgba(174, 113, 0, 0.686);
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+}
