@@ -16,7 +16,7 @@ const App = () => {
     const handleDataApi = async () => {
       const response = await fetch("https://jsonplaceholder.typicode.com/todos");
       const result = await response.json()
-      const myToDos = result.slice(0,6)
+      const myToDos = result.slice(0,8)
       console.log(myToDos)
       setDataApi(myToDos)
       setAll(myToDos)
